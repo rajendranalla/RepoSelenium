@@ -1,0 +1,5 @@
+Commands to run in terminal:
+Example: mvn clean install -DsuiteXmlFile=<SuiteName.xml>
+
+
+mvn clean install -DsuiteXmlFile=testng.xml
