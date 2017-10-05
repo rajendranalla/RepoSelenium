@@ -75,6 +75,11 @@
 			<artifactId>sikuli-api</artifactId>
 			<version>1.2.0</version>
 		</dependency>
+		<dependency>
+			<groupId>com.sikulix</groupId>
+			<artifactId>sikulixapi</artifactId>
+			<version>1.1.0</version>
+		</dependency>
 
 	</dependencies>
 
@@ -88,7 +93,6 @@
 				<configuration>
 					<testFailureIgnore> false </testFailureIgnore>
 					<suiteXmlFiles>
-						<!-- <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> -->
 						<suiteXmlFile>C:/Users/rajendra/workspace/SeleniumWebDriverMaven/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
