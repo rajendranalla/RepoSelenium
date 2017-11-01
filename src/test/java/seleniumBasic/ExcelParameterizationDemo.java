@@ -20,7 +20,7 @@ public class ExcelParameterizationDemo {
 
 	@BeforeTest
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", "C:/Users/rajendra/workspace/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/Users/Rajendra Prasad/eclipse-workspace/chromedriver.exe");
 		driver = new ChromeDriver();
 
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

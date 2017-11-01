@@ -16,7 +16,7 @@ public class DropdownHandling {
 	public void invokeBrowser() {
 
 		try {
-			System.setProperty("webdriver.gecko.driver", "C:/Users/rajendra/workspace/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "C:/Users/Rajendra Prasad/eclipse-workspace/geckodriver.exe");
 			driver = new FirefoxDriver();
 			driver.manage().deleteAllCookies();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

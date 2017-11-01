@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -21,28 +22,28 @@ public class DatePickerSkyscanner {
 	@Test
 	public void SkyscannerDateSelection() throws Exception {
 
-		System.setProperty("webdriver.ie.driver", "C:/Users/rajendra/workspace/IEDriverServer.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/Users/Rajendra Prasad/eclipse-workspace/chromedriver.exe");
 
-//		// Create object of HashMap Class
-//		Map<String, Object> prefs = new HashMap<String, Object>();
-//
-//		// Set the notification setting it will override the default setting
-//		prefs.put("profile.default_content_setting_values.notifications", 2);
-//
-//		// Create object of ChromeOption class
-//		ChromeOptions options = new ChromeOptions();
-//
-//		// Set the experimental option
-//		options.setExperimentalOption("prefs", prefs);
-//
-//		// pass the options object in Chrome driver
-//		driver = new ChromeDriver(options);
-		driver = new InternetExplorerDriver();
+		// // Create object of HashMap Class
+		// Map<String, Object> prefs = new HashMap<String, Object>();
+		//
+		// // Set the notification setting it will override the default setting
+		// prefs.put("profile.default_content_setting_values.notifications", 2);
+		//
+		// // Create object of ChromeOption class
+		// ChromeOptions options = new ChromeOptions();
+		//
+		// // Set the experimental option
+		// options.setExperimentalOption("prefs", prefs);
+		//
+		// // pass the options object in Chrome driver
+		// driver = new ChromeDriver(options);
+		driver = new ChromeDriver();
 
 		driver.manage().deleteAllCookies();
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
 
 		// Waits for 10 secs
 		WebDriverWait wait = new WebDriverWait(driver, 30);
@@ -147,9 +148,9 @@ public class DatePickerSkyscanner {
 			}
 		}
 
-		Thread.sleep(2000);
+		Thread.sleep(15000);
 		driver.findElement(By.cssSelector(".fss-bpk-button.fss-bpk-button--large.js-search-button")).click();
-		Thread.sleep(5000);
+		Thread.sleep(15000);
 
 		WebElement element = wait
 				.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#price-alert-button2")));

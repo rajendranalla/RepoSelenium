@@ -14,7 +14,7 @@ public class DownloadFileBrowser {
 	@Test
 	public void downloadFile() throws Exception {
 
-		System.setProperty("webdriver.chrome.driver", "C:/Users/rajendra/workspace/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/Users/Rajendra Prasad/eclipse-workspace/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("http://www.seleniumhq.org/download/");

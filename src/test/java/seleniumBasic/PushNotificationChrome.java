@@ -11,7 +11,7 @@ public class PushNotificationChrome {
 
 	public static void main(String[] args) throws Exception {
 
-		System.setProperty("webdriver.chrome.driver", "C:/Users/rajendra/workspace/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/Users/Rajendra Prasad/eclipse-workspace/chromedriver.exe");
 
 		WebDriver driver;
 

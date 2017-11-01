@@ -9,7 +9,7 @@ public class PushNotification {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.gecko.driver", "C:/Users/rajendra/workspace/geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:/Users/Rajendra Prasad/eclipse-workspace/geckodriver.exe");
 
 		ProfilesIni listprofile = new ProfilesIni();
 		FirefoxProfile profile = listprofile.getProfile("Default User");
