@@ -14,7 +14,7 @@ public class getCommandsAll {
 	public void Invoke(){
 		
 		try {
-			System.setProperty("webdriver.ie.driver", "C:/Users/rajendra/workspace/IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", "C:/Users/Rajendra Prasad/eclipse-workspace/IEDriverServer.exe");
 			
 			driver = new InternetExplorerDriver();
 			driver.manage().window().maximize();

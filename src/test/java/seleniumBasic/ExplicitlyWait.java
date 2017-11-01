@@ -11,7 +11,7 @@ public class ExplicitlyWait {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.gecko.driver", "C:/Users/rajendra/workspace/geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:/Users/Rajendra Prasad/eclipse-workspace/geckodriver.exe");
 
 		WebDriver driver = new FirefoxDriver();
 

@@ -13,7 +13,7 @@ public class PasswordEncryption {
 	@Test
 	public void passwordEncode() throws Exception {
 
-		System.setProperty("webdriver.chrome.driver", "C:/Users/rajendra/workspace/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/Users/Rajendra Prasad/eclipse-workspace/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://www.facebook.com/");

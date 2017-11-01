@@ -1,17 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53311" started-at="2017-09-29T06:18:26Z" finished-at="2017-09-29T06:19:20Z">
+  <suite started-at="2017-11-01T12:57:58Z" name="Default suite" finished-at="2017-11-01T12:59:57Z" duration-ms="118799">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53311" started-at="2017-09-29T06:18:26Z" finished-at="2017-09-29T06:19:20Z">
-      <class name="sikuli.UploadFile2">
-        <test-method status="PASS" signature="downloadFile()[pri:0, instance:sikuli.UploadFile2@2f686d1f]" name="downloadFile" duration-ms="53281" started-at="2017-09-29T11:48:26Z" finished-at="2017-09-29T11:49:20Z">
+    <test started-at="2017-11-01T12:57:58Z" name="Default test" finished-at="2017-11-01T12:59:57Z" duration-ms="118799">
+      <class name="seleniumBasic.DatePickerSkyscanner">
+        <test-method signature="SkyscannerDateSelection()[pri:0, instance:seleniumBasic.DatePickerSkyscanner@4470f8a6]" started-at="2017-11-01T18:27:58Z" name="SkyscannerDateSelection" finished-at="2017-11-01T18:29:57Z" duration-ms="118780" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:446)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:505)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at seleniumBasic.DatePickerSkyscanner.SkyscannerDateSelection(DatePickerSkyscanner.java:156)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- downloadFile -->
-      </class> <!-- sikuli.UploadFile2 -->
+        </test-method> <!-- SkyscannerDateSelection -->
+      </class> <!-- seleniumBasic.DatePickerSkyscanner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

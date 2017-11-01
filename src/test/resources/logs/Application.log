@@ -1,9 +1,0 @@
-29/09/2017 13:37:37 devpinoyLogger Config properties loaded
-29/09/2017 13:37:37 devpinoyLogger OR properties loaded
-29/09/2017 13:37:40 devpinoyLogger Launching Chrome
-29/09/2017 13:38:12 devpinoyLogger Navigating to: https://www.facebook.com/
-29/09/2017 13:38:17 devpinoyLogger DB connection established
-29/09/2017 13:38:20 devpinoyLogger Typing in an element email_xpath & the value entered is rajendranalla@gmail.com
-29/09/2017 13:38:22 devpinoyLogger Typing in an element password_xpath & the value entered is Prasad_9177
-29/09/2017 13:38:31 devpinoyLogger Click on an element loginButton_xpath
-29/09/2017 13:38:32 devpinoyLogger Test execution completed !!

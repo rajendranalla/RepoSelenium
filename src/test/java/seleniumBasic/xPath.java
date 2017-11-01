@@ -14,7 +14,7 @@ public class xPath {
 	public void Invoke(String url) {
 
 		try {
-			System.setProperty("webdriver.gecko.driver", "C:/Users/rajendra/workspace/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "C:/Users/Rajendra Prasad/eclipse-workspace/geckodriver.exe");
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
 			driver.manage().deleteAllCookies();

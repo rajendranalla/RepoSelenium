@@ -16,7 +16,7 @@ public class MouseActions {
 
 		try {
 
-			System.setProperty("webdriver.gecko.driver", "C:/Users/rajendra/workspace/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "C:/Users/Rajendra Prasad/eclipse-workspace/geckodriver.exe");
 			driver = new FirefoxDriver();
 			driver.manage().deleteAllCookies();
 			driver.get("https://www.flipkart.com/");

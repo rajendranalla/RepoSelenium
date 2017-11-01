@@ -20,7 +20,7 @@ public class ScrollDropDownList {
 	@Test
 	public void yatraDateSelection() throws Exception {
 
-		System.setProperty("webdriver.chrome.driver", "C:/Users/rajendra/workspace/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/Users/Rajendra Prasad/eclipse-workspace/chromedriver.exe");
 
 		// Create object of HashMap Class
 		Map<String, Object> prefs = new HashMap<String, Object>();
