@@ -111,7 +111,7 @@
 					<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 					<suiteXmlFiles>
 						<suiteXmlFile>C:\Users\Rajendra
-							Prasad\Documents\Selenium\SeleniumWebDriverMaven\testng.xml</suiteXmlFile>
+							Prasad\Documents\Selenium\SeleniumWebDriverMaven\src\test\resources\runner\testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
