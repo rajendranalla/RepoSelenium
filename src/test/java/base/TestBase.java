@@ -25,8 +25,8 @@ import utilities.DbManager;
 public class TestBase {
 
 	/*
-	 * Webdriver logs properties mail jdbc Excel TestNG Reporting waits -
-	 * Implicit and explicit
+	 * Webdriver logs properties mail jdbc Excel TestNG Reporting waits - Implicit
+	 * and explicit
 	 */
 
 	public static WebDriver driver;

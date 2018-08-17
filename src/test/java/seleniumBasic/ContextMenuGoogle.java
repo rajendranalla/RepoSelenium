@@ -18,7 +18,7 @@ public class ContextMenuGoogle {
 		ProfilesIni profile = new ProfilesIni();
 		FirefoxProfile firefoxprofile = profile.getProfile("Default User");
 
-		WebDriver driver = new FirefoxDriver(firefoxprofile);
+		WebDriver driver = new FirefoxDriver();
 		driver.manage().deleteAllCookies();
 
 		System.out.println("-----------------First Window--------------");

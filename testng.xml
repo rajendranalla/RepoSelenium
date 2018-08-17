@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-
-<suite name="Suite">
+<suite name="Learning TestNG">
 
 	<listeners>
-		<listener class-name="ListenersDemo.ListenersTestNG" />
+
+		<listener class-name="ListenersDemo.ListenersTestNG"></listener>
 		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+
 	</listeners>
 
-	<!-- <test name="BankingApp"> <classes> <class name="BankingApp.BankManagerLoginTest"></class> 
-		<class name="BankingApp.AddCustomerDetails"></class> <class name="BankingApp.OpenBankAccount"></class> 
-		</classes> </test> -->
-
-	<test name="seleniumBasic">
+	<test name="Bank Manager Login Test">
 		<classes>
-			<class name="seleniumBasic.DatePickerSkyscanner"></class>
+			<class name="BankingApp.BankManagerLoginTest" />
 		</classes>
 	</test>
 
-</suite> 
+
+
+	<test name="Add Customer Test">
+		<classes>
+			<class name="BankingApp.AddCustomerDetails" />
+		</classes>
+	</test>
+
+
+
+	<test name="Open Account Test">
+		<classes>
+			<class name="BankingApp.OpenBankAccount" />
+		</classes>
+	</test>
+
+
+</suite>

@@ -15,9 +15,9 @@ public class AddCustomerDetails extends TestBase {
 	public void addCustomer(String firstName, String lastName, String postCode, String alertText) throws Exception {
 
 		try {
-			
-//			click("bmlBtn_css");
-//			Thread.sleep(2000);
+
+			// click("bmlBtn_css");
+			// Thread.sleep(2000);
 			click("addCustBtn_css");
 			Thread.sleep(2000);
 			type("firstName_css", firstName);
@@ -39,7 +39,7 @@ public class AddCustomerDetails extends TestBase {
 
 	}
 
-	@DataProvider(name ="addCustomer")
+	@DataProvider(name = "addCustomer")
 	public Object[][] getData() throws Exception {
 
 		return TestUtil.getData("AddCustomerDetails");

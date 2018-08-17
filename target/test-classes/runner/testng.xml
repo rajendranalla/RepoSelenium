@@ -13,7 +13,7 @@
 		<classes>
 			<class name="BankingApp.BankManagerLoginTest" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
 
 
 
@@ -21,7 +21,7 @@
 		<classes>
 			<class name="BankingApp.AddCustomerDetails" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
 
 
 
@@ -29,7 +29,9 @@
 		<classes>
 			<class name="BankingApp.OpenBankAccount" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
 
 
-</suite> <!-- Suite -->
+
+
+</suite>

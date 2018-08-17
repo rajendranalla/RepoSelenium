@@ -12,6 +12,7 @@ public class ArithmeticExceptionDemo {
 
 		try {
 			i = j / k;
+
 		} catch (ArithmeticException e) {
 
 			System.out.println("Cannot divide by Zero " + e);

@@ -14,7 +14,7 @@ public class PushNotification {
 		ProfilesIni listprofile = new ProfilesIni();
 		FirefoxProfile profile = listprofile.getProfile("Default User");
 
-		WebDriver driver = new FirefoxDriver(profile);
+		WebDriver driver = new FirefoxDriver();
 
 		driver.get("http://www.firstcry.com/");
 //		driver.manage().window().maximize();

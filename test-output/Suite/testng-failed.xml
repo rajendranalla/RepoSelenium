@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="ListenersDemo.ListenersTestNG"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
   </listeners>
-  <test name="BankingApp(failed)">
+  <test thread-count="5" name="BankingApp(failed)">
     <classes>
-      <class name="BankingApp.AddCustomerDetails">
-        <methods>
-          <include name="addCustomer" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- BankingApp.AddCustomerDetails -->
       <class name="BankingApp.BankManagerLoginTest">
         <methods>
           <include name="loginAsBankManager"/>

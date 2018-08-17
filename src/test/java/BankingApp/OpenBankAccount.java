@@ -10,15 +10,13 @@ import base.TestBase;
 import utilities.TestUtil;
 
 public class OpenBankAccount extends TestBase {
-	
-	
+
 	@Test(dataProvider = "openAccount")
-	public void openAccount(String customer, String currency, String alertText) throws Exception{
-		
-		
+	public void openAccount(String customer, String currency, String alertText) throws Exception {
+
 		try {
-//			click("bmlBtn_css");
-//			Thread.sleep(2000);
+			// click("bmlBtn_css");
+			// Thread.sleep(2000);
 			click("openAccount_css");
 			Thread.sleep(2000);
 			select("customer_css", customer);
@@ -28,7 +26,7 @@ public class OpenBankAccount extends TestBase {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+
 		click("process_css");
 		Thread.sleep(2000);
 		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
@@ -36,8 +34,8 @@ public class OpenBankAccount extends TestBase {
 		Assert.assertTrue(alert.getText().contains(alertText), " cannot find text in the alert ");
 		alert.accept();
 	}
-	
-	@DataProvider(name ="openAccount")
+
+	@DataProvider(name = "openAccount")
 	public Object[][] getData() throws Exception {
 
 		return TestUtil.getData("openAccount");
