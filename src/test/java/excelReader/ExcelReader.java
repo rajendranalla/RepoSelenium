@@ -260,6 +260,7 @@ public class ExcelReader {
 			hlink_style.setFont(hlink_font);
 			// hlink_style.setWrapText(true);
 
+			@SuppressWarnings("deprecation")
 			XSSFHyperlink link = createHelper.createHyperlink(XSSFHyperlink.LINK_FILE);
 			
 			link.setAddress(url);

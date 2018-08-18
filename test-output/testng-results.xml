@@ -1,385 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-08-17T18:57:09Z" name="Learning TestNG" finished-at="2018-08-17T18:57:09Z" duration-ms="106">
+  <suite name="Learning TestNG" duration-ms="29493" started-at="2018-08-17T23:20:31Z" finished-at="2018-08-17T23:21:00Z">
     <groups>
     </groups>
-    <test started-at="2018-08-17T18:57:09Z" name="Bank Manager Login Test" finished-at="2018-08-17T18:57:09Z" duration-ms="32">
+    <test name="Bank Manager Login Test" duration-ms="440" started-at="2018-08-17T23:20:31Z" finished-at="2018-08-17T23:20:31Z">
       <class name="BankingApp.BankManagerLoginTest">
-        <test-method signature="loginAsBankManager()[pri:0, instance:BankingApp.BankManagerLoginTest@47dbb1e2]" started-at="2018-08-17T18:57:09Z" name="loginAsBankManager" finished-at="2018-08-17T18:57:09Z" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
-System info: host: 'RAJENDRA-LENOVO', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: WebDriverError@chrome://marionette/content/error.js:227:5
-InvalidSessionIDError@chrome://marionette/content/error.js:382:5
-assert.that/<@chrome://marionette/content/assert.js:383:13
-assert.session@chrome://marionette/content/assert.js:49:3
-execute/req<@chrome://marionette/content/server.js:536:9
-TaskImpl_run@resource://gre/modules/Task.jsm:331:42
-TaskImpl@resource://gre/modules/Task.jsm:280:3
-asyncFunction@resource://gre/modules/Task.jsm:252:14
-Task_spawn@resource://gre/modules/Task.jsm:166:12
-execute@chrome://marionette/content/server.js:529:15
-onPacket@chrome://marionette/content/server.js:500:7
-_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:9
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: 
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
-System info: host: 'RAJENDRA-LENOVO', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: WebDriverError@chrome://marionette/content/error.js:227:5
-InvalidSessionIDError@chrome://marionette/content/error.js:382:5
-assert.that/<@chrome://marionette/content/assert.js:383:13
-assert.session@chrome://marionette/content/assert.js:49:3
-execute/req<@chrome://marionette/content/server.js:536:9
-TaskImpl_run@resource://gre/modules/Task.jsm:331:42
-TaskImpl@resource://gre/modules/Task.jsm:280:3
-asyncFunction@resource://gre/modules/Task.jsm:252:14
-Task_spawn@resource://gre/modules/Task.jsm:166:12
-execute@chrome://marionette/content/server.js:529:15
-onPacket@chrome://marionette/content/server.js:500:7
-_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:9
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
-at base.TestBase.setUp(TestBase.java:188)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:BankingApp.BankManagerLoginTest@21282ed8]" name="loginAsBankManager" duration-ms="414" started-at="2018-08-17T23:20:31Z" finished-at="2018-08-17T23:20:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAsBankManager -->
       </class> <!-- BankingApp.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login Test -->
-    <test started-at="2018-08-17T18:57:09Z" name="Add Customer Test" finished-at="2018-08-17T18:57:09Z" duration-ms="17">
+    <test name="Add Customer Test" duration-ms="15579" started-at="2018-08-17T23:20:31Z" finished-at="2018-08-17T23:20:47Z">
       <class name="BankingApp.AddCustomerDetails">
-        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BankingApp.AddCustomerDetails@6731787b]" started-at="2018-08-17T18:57:09Z" name="addCustomer" data-provider="addCustomer" finished-at="2018-08-17T18:57:09Z" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
-System info: host: 'RAJENDRA-LENOVO', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: WebDriverError@chrome://marionette/content/error.js:227:5
-InvalidSessionIDError@chrome://marionette/content/error.js:382:5
-assert.that/<@chrome://marionette/content/assert.js:383:13
-assert.session@chrome://marionette/content/assert.js:49:3
-execute/req<@chrome://marionette/content/server.js:536:9
-TaskImpl_run@resource://gre/modules/Task.jsm:331:42
-TaskImpl@resource://gre/modules/Task.jsm:280:3
-asyncFunction@resource://gre/modules/Task.jsm:252:14
-Task_spawn@resource://gre/modules/Task.jsm:166:12
-execute@chrome://marionette/content/server.js:529:15
-onPacket@chrome://marionette/content/server.js:500:7
-_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:9
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: 
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
-System info: host: 'RAJENDRA-LENOVO', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: WebDriverError@chrome://marionette/content/error.js:227:5
-InvalidSessionIDError@chrome://marionette/content/error.js:382:5
-assert.that/<@chrome://marionette/content/assert.js:383:13
-assert.session@chrome://marionette/content/assert.js:49:3
-execute/req<@chrome://marionette/content/server.js:536:9
-TaskImpl_run@resource://gre/modules/Task.jsm:331:42
-TaskImpl@resource://gre/modules/Task.jsm:280:3
-asyncFunction@resource://gre/modules/Task.jsm:252:14
-Task_spawn@resource://gre/modules/Task.jsm:166:12
-execute@chrome://marionette/content/server.js:529:15
-onPacket@chrome://marionette/content/server.js:500:7
-_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:9
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
-at base.TestBase.setUp(TestBase.java:188)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BankingApp.AddCustomerDetails@72e5a8e]" name="addCustomer" duration-ms="15568" started-at="2018-08-17T23:20:31Z" data-provider="addCustomer" finished-at="2018-08-17T23:20:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nalla]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully with customer id]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
       </class> <!-- BankingApp.AddCustomerDetails -->
     </test> <!-- Add Customer Test -->
-    <test started-at="2018-08-17T18:57:09Z" name="Open Account Test" finished-at="2018-08-17T18:57:09Z" duration-ms="15">
+    <test name="Open Account Test" duration-ms="13446" started-at="2018-08-17T23:20:47Z" finished-at="2018-08-17T23:21:00Z">
       <class name="BankingApp.OpenBankAccount">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:BankingApp.OpenBankAccount@2c104774]" started-at="2018-08-17T18:55:48Z" name="setUp" finished-at="2018-08-17T18:57:09Z" duration-ms="81048" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
-System info: host: 'RAJENDRA-LENOVO', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: WebDriverError@chrome://marionette/content/error.js:227:5
-InvalidSessionIDError@chrome://marionette/content/error.js:382:5
-assert.that/<@chrome://marionette/content/assert.js:383:13
-assert.session@chrome://marionette/content/assert.js:49:3
-execute/req<@chrome://marionette/content/server.js:536:9
-TaskImpl_run@resource://gre/modules/Task.jsm:331:42
-TaskImpl@resource://gre/modules/Task.jsm:280:3
-asyncFunction@resource://gre/modules/Task.jsm:252:14
-Task_spawn@resource://gre/modules/Task.jsm:166:12
-execute@chrome://marionette/content/server.js:529:15
-onPacket@chrome://marionette/content/server.js:500:7
-_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:9
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: 
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
-System info: host: 'RAJENDRA-LENOVO', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: WebDriverError@chrome://marionette/content/error.js:227:5
-InvalidSessionIDError@chrome://marionette/content/error.js:382:5
-assert.that/<@chrome://marionette/content/assert.js:383:13
-assert.session@chrome://marionette/content/assert.js:49:3
-execute/req<@chrome://marionette/content/server.js:536:9
-TaskImpl_run@resource://gre/modules/Task.jsm:331:42
-TaskImpl@resource://gre/modules/Task.jsm:280:3
-asyncFunction@resource://gre/modules/Task.jsm:252:14
-Task_spawn@resource://gre/modules/Task.jsm:166:12
-execute@chrome://marionette/content/server.js:529:15
-onPacket@chrome://marionette/content/server.js:500:7
-_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:9
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
-at base.TestBase.setUp(TestBase.java:188)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:BankingApp.OpenBankAccount@73e9cf30]" name="setUp" is-config="true" duration-ms="9337" started-at="2018-08-17T23:20:22Z" finished-at="2018-08-17T23:20:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openAccount(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BankingApp.OpenBankAccount@2c104774]" started-at="2018-08-17T18:57:09Z" name="openAccount" data-provider="openAccount" finished-at="2018-08-17T18:57:09Z" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
-System info: host: 'RAJENDRA-LENOVO', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: WebDriverError@chrome://marionette/content/error.js:227:5
-InvalidSessionIDError@chrome://marionette/content/error.js:382:5
-assert.that/<@chrome://marionette/content/assert.js:383:13
-assert.session@chrome://marionette/content/assert.js:49:3
-execute/req<@chrome://marionette/content/server.js:536:9
-TaskImpl_run@resource://gre/modules/Task.jsm:331:42
-TaskImpl@resource://gre/modules/Task.jsm:280:3
-asyncFunction@resource://gre/modules/Task.jsm:252:14
-Task_spawn@resource://gre/modules/Task.jsm:166:12
-execute@chrome://marionette/content/server.js:529:15
-onPacket@chrome://marionette/content/server.js:500:7
-_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:9
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: 
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
-System info: host: 'RAJENDRA-LENOVO', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: WebDriverError@chrome://marionette/content/error.js:227:5
-InvalidSessionIDError@chrome://marionette/content/error.js:382:5
-assert.that/<@chrome://marionette/content/assert.js:383:13
-assert.session@chrome://marionette/content/assert.js:49:3
-execute/req<@chrome://marionette/content/server.js:536:9
-TaskImpl_run@resource://gre/modules/Task.jsm:331:42
-TaskImpl@resource://gre/modules/Task.jsm:280:3
-asyncFunction@resource://gre/modules/Task.jsm:252:14
-Task_spawn@resource://gre/modules/Task.jsm:166:12
-execute@chrome://marionette/content/server.js:529:15
-onPacket@chrome://marionette/content/server.js:500:7
-_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:9
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
-at base.TestBase.setUp(TestBase.java:188)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+        <test-method status="PASS" signature="openAccount(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BankingApp.OpenBankAccount@73e9cf30]" name="openAccount" duration-ms="13441" started-at="2018-08-17T23:20:47Z" data-provider="openAccount" finished-at="2018-08-17T23:21:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry Potter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Account created successfully with account Number]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:BankingApp.OpenBankAccount@2c104774]" started-at="2018-08-17T18:57:09Z" name="tearDown" finished-at="2018-08-17T18:57:09Z" duration-ms="0" status="SKIP">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BankingApp.OpenBankAccount@73e9cf30]" name="tearDown" is-config="true" duration-ms="609" started-at="2018-08-17T23:21:00Z" finished-at="2018-08-17T23:21:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,2 +1,16 @@
-17/08/2018 13:55:48 devpinoyLogger Config properties loaded
-17/08/2018 13:55:48 devpinoyLogger OR properties loaded
+17/08/2018 18:56:55 devpinoyLogger Config properties loaded
+17/08/2018 18:56:55 devpinoyLogger OR properties loaded
+17/08/2018 18:56:58 devpinoyLogger Launching Chrome
+17/08/2018 18:57:01 devpinoyLogger Navigating to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+17/08/2018 18:57:04 devpinoyLogger DB connection established
+17/08/2018 18:57:04 devpinoyLogger Element Enabled bmlBtn_css
+17/08/2018 18:57:04 devpinoyLogger Click on an element bmlBtn_css
+17/08/2018 18:57:04 devpinoyLogger Element Enabled addCustBtn_css
+17/08/2018 18:57:05 devpinoyLogger Click on an element addCustBtn_css
+17/08/2018 18:57:07 devpinoyLogger Typing in an element firstName_css & the value entered is Rajendra
+17/08/2018 18:57:09 devpinoyLogger Typing in an element lastName_css & the value entered is Nalla
+17/08/2018 18:57:11 devpinoyLogger Typing in an element postCode_css & the value entered is a12345
+17/08/2018 18:57:13 devpinoyLogger Click on an element addCustomer_css
+17/08/2018 18:57:20 devpinoyLogger Click on an element openAccount_css
+17/08/2018 18:57:26 devpinoyLogger Click on an element process_css
+17/08/2018 18:57:34 devpinoyLogger Test execution completed !!
