@@ -1,5 +1,6 @@
 package com.Testng.Programs;
 
+import org.testng.SkipException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -14,6 +15,7 @@ public class FirstTestNG {
 	@Test
 	public void Login() {
 		System.out.println("Login Page");
+		throw new SkipException("Skip this test case");
 	}
 
 	@Test
@@ -23,7 +25,7 @@ public class FirstTestNG {
 
 	@AfterMethod
 	public void CloseBrowser() {
-		System.out.println("Quit Browser");
+		System.out.println("Quit Browser!!");
 	}
 
 }

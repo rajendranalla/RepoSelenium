@@ -1,13 +1,13 @@
 Commands to run in terminal:
 Example: mvn clean install -DsuiteXmlFile=<SuiteName.xml>
 
-mvn clean install -DsuiteXmlFile=src\test\resources\runner\testng.xml
+> mvn clean install -DsuiteXmlFile=src\test\resources\runner\testng.xml
 
 
 (Or) If the testng.xml path (example: <suiteXmlFile>src\test\resources\runner\testng.xml</suiteXmlFile>)
 is already set in the POM.xml file, then run in the terminal:
 
-mvn clean install -X
+> mvn surefire-report:report && mvn site -DgenerateReports=false -X
 
 
 

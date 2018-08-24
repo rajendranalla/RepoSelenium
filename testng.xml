@@ -9,27 +9,27 @@
 
 	</listeners>
 
-	<test name="Bank Manager Login Test">
+	<test name="First TestNG Test">
 		<classes>
-			<class name="BankingApp.BankManagerLoginTest" />
+			<class name="com.Testng.Programs.FirstTestNG" />
 		</classes>
 	</test>
 
 
 
-	<test name="Add Customer Test">
+	<test name="Data Parameterization 1">
 		<classes>
-			<class name="BankingApp.AddCustomerDetails" />
+			<class name="com.Testng.Programs.DataProvider1" />
 		</classes>
 	</test>
 
 
 
-	<test name="Open Account Test">
+	<!-- <test name="Open Account Test">
 		<classes>
 			<class name="BankingApp.OpenBankAccount" />
 		</classes>
-	</test>
+	</test> -->
 
 
 </suite>
