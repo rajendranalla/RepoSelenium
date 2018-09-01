@@ -1,16 +1,9 @@
-15:45:05,676 DEBUG devpinoyLogger:162 - Config properties loaded
-15:45:05,676 DEBUG devpinoyLogger:178 - OR properties loaded
-15:45:10,467 DEBUG devpinoyLogger:189 - Launching Firefox
-15:45:15,641 DEBUG devpinoyLogger:206 - Navigating to: http://www.way2automation.com/angularjs-protractor/banking/#/login
-15:45:21,410 DEBUG devpinoyLogger:220 - DB connection established
-15:45:21,452 DEBUG devpinoyLogger:142 - Element Enabled bmlBtn_xpath
-15:45:21,715 DEBUG devpinoyLogger:58 - Click on an element bmlBtn_xpath
-15:45:21,795 DEBUG devpinoyLogger:142 - Element Enabled addCustBtn_xpath
-15:45:22,074 DEBUG devpinoyLogger:58 - Click on an element addCustBtn_css
-15:45:24,184 DEBUG devpinoyLogger:76 - Typing in an element firstName_css & the value entered is Rajendra
-15:45:26,248 DEBUG devpinoyLogger:76 - Typing in an element lastName_css & the value entered is Nalla
-15:45:28,373 DEBUG devpinoyLogger:76 - Typing in an element postCode_css & the value entered is a12345
-15:45:30,498 DEBUG devpinoyLogger:58 - Click on an element addCustomer_css
-15:45:37,847 DEBUG devpinoyLogger:58 - Click on an element openAccount_css
-15:45:44,623 DEBUG devpinoyLogger:58 - Click on an element process_css
-15:45:53,039 DEBUG devpinoyLogger:234 - Test execution completed !!
+13:30:23,689 DEBUG devpinoyLogger:162 - Config properties loaded
+13:30:23,697 DEBUG devpinoyLogger:178 - OR properties loaded
+13:30:42,682 DEBUG devpinoyLogger:189 - Launching Firefox
+13:30:47,698 DEBUG devpinoyLogger:206 - Navigating to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+13:30:53,614 DEBUG devpinoyLogger:220 - DB connection established
+13:30:53,712 DEBUG devpinoyLogger:142 - Element Enabled bmlBtn_xpath
+13:30:53,949 DEBUG devpinoyLogger:58 - Click on an element bmlBtn_xpath
+13:30:54,303 DEBUG devpinoyLogger:142 - Element Enabled addCustBtn_xpath
+13:30:55,777 DEBUG devpinoyLogger:234 - Test execution completed !!

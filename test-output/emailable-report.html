@@ -9,18 +9,29 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Learning TestNG</th></tr>
-<tr><td><a href="#t0">First TestNG Test</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num">31</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Data Parameterization 1</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">15</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">3</th><th class="num attn">1</th><th class="num">0</th><th class="num">46</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Bank Manager Login Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">692</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Add Customer Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">13</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Open Account Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">4</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num attn">2</th><th class="num">0</th><th class="num">709</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Learning TestNG</th></tr></tbody><tbody id="t0"><tr><th colspan="4">First TestNG Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.Testng.Programs.FirstTestNG</td><td><a href="#m0">Login</a></td><td rowspan="1">1535137666487</td><td rowspan="1">0</td></tr><tr><th colspan="4">First TestNG Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Testng.Programs.FirstTestNG</td><td><a href="#m1">clickLink</a></td><td rowspan="1">1535137666487</td><td rowspan="1">15</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Data Parameterization 1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.Testng.Programs.DataProvider1</td><td><a href="#m2">testFormFill</a></td><td rowspan="2">1535137666524</td><td rowspan="2">0</td></tr><tr class="passedeven"><td><a href="#m3">testFormFill</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Learning TestNG</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Bank Manager Login Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">BankingApp.BankManagerLoginTest</td><td><a href="#m0">loginAsBankManager</a></td><td rowspan="1">1535481053632</td><td rowspan="1">672</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Add Customer Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">BankingApp.AddCustomerDetails</td><td><a href="#m1">addCustomer</a></td><td rowspan="1">1535481054337</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Open Account Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">BankingApp.OpenBankAccount</td><td><a href="#m2">openAccount</a></td><td rowspan="1">1535481054350</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>First TestNG Test</h2><h3 id="m0">com.Testng.Programs.FirstTestNG#Login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skip this test case
-	at com.Testng.Programs.FirstTestNG.Login(FirstTestNG.java:18)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.Testng.Programs.FirstTestNG#clickLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Data Parameterization 1</h2><h3 id="m2">com.Testng.Programs.DataProvider1#testFormFill</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>xyz@gmail.com</td><td>xyz123</td><td>20</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.Testng.Programs.DataProvider1#testFormFill</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>abc@gmail.com</td><td>abc123</td><td>15</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Bank Manager Login Test</h2><h3 id="m0">BankingApp.BankManagerLoginTest#loginAsBankManager</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Add Customer Test</h2><h3 id="m1">BankingApp.AddCustomerDetails#addCustomer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at excelReader.ExcelReader.getRowCount(ExcelReader.java:50)
+	at utilities.TestUtil.getData(TestUtil.java:30)
+	at BankingApp.AddCustomerDetails.getData(AddCustomerDetails.java:45)
+	... 22 more
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Open Account Test</h2><h3 id="m2">BankingApp.OpenBankAccount#openAccount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at excelReader.ExcelReader.getRowCount(ExcelReader.java:50)
+	at utilities.TestUtil.getData(TestUtil.java:30)
+	at BankingApp.OpenBankAccount.getData(OpenBankAccount.java:41)
+	... 22 more
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

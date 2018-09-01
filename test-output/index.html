@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Learning_TestNG">
-                    <span>C:\Users\Rajendra Prasad\Documents\Selenium\SeleniumWebDriverMaven\testng.xml</span>
+                    <span>C:\Users\Rajendra Prasad\Documents\Selenium\SeleniumWebDriverMaven\src\test\resources\runner\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Learning_TestNG">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,  1 skipped,  3 passed</span>
+                    <span class="method-stats">3 methods,  2 skipped,  1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content skipped suite-Learning_TestNG">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Learning_TestNG" title="com.Testng.Programs.FirstTestNG" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Learning_TestNG" title="BankingApp.AddCustomerDetails" hash-for-method="addCustomer">addCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Learning_TestNG" title="BankingApp.OpenBankAccount" hash-for-method="openAccount">openAccount</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Learning_TestNG -->
@@ -116,17 +121,7 @@
                     <div class="method-list-content passed suite-Learning_TestNG">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Learning_TestNG" title="com.Testng.Programs.FirstTestNG" hash-for-method="clickLink">clickLink</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Learning_TestNG" title="com.Testng.Programs.DataProvider1" hash-for-method="testFormFill(xyz@gmail.com, xyz123, 20)">testFormFill(xyz@gmail.com, xyz123, 20)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Learning_TestNG" title="com.Testng.Programs.DataProvider1" hash-for-method="testFormFill(abc@gmail.com, abc123, 15)">testFormFill(abc@gmail.com, abc123, 15)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Learning_TestNG" title="BankingApp.BankManagerLoginTest" hash-for-method="loginAsBankManager">loginAsBankManager</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Learning_TestNG -->
@@ -144,17 +139,44 @@
           <div class="suite-Learning_TestNG-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.Testng.Programs.FirstTestNG</span>
+              <span class="class-name">BankingApp.AddCustomerDetails</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Login">
-                  </a> <!-- Login -->
-                  <span class="method-name">Login</span>
-                  <div class="stack-trace">org.testng.SkipException: Skip this test case
-	at com.Testng.Programs.FirstTestNG.Login(FirstTestNG.java:18)
-... Removed 25 stack frames
+                  <a name="addCustomer">
+                  </a> <!-- addCustomer -->
+                  <span class="method-name">addCustomer</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at excelReader.ExcelReader.getRowCount(ExcelReader.java:50)
+	at utilities.TestUtil.getData(TestUtil.java:30)
+	at BankingApp.AddCustomerDetails.getData(AddCustomerDetails.java:45)
+	... 22 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Learning_TestNG-class-skipped -->
+          <div class="suite-Learning_TestNG-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">BankingApp.OpenBankAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAccount">
+                  </a> <!-- openAccount -->
+                  <span class="method-name">openAccount</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at excelReader.ExcelReader.getRowCount(ExcelReader.java:50)
+	at utilities.TestUtil.getData(TestUtil.java:30)
+	at BankingApp.OpenBankAccount.getData(OpenBankAccount.java:41)
+	... 22 more
+... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -163,38 +185,14 @@
           <div class="suite-Learning_TestNG-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.Testng.Programs.FirstTestNG</span>
+              <span class="class-name">BankingApp.BankManagerLoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickLink">
-                  </a> <!-- clickLink -->
-                  <span class="method-name">clickLink</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Learning_TestNG-class-passed -->
-          <div class="suite-Learning_TestNG-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.Testng.Programs.DataProvider1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testFormFill(xyz@gmail.com, xyz123, 20)">
-                  </a> <!-- testFormFill(xyz@gmail.com, xyz123, 20) -->
-                  <span class="method-name">testFormFill</span>
-                  <span class="parameters">(xyz@gmail.com, xyz123, 20)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testFormFill(abc@gmail.com, abc123, 15)">
-                  </a> <!-- testFormFill(abc@gmail.com, abc123, 15) -->
-                  <span class="method-name">testFormFill</span>
-                  <span class="parameters">(abc@gmail.com, abc123, 15)</span>
+                  <a name="loginAsBankManager">
+                  </a> <!-- loginAsBankManager -->
+                  <span class="method-name">loginAsBankManager</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -202,7 +200,7 @@
         </div> <!-- panel Learning_TestNG -->
         <div panel-name="test-xml-Learning_TestNG" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Rajendra Prasad\Documents\Selenium\SeleniumWebDriverMaven\testng.xml</span>
+            <span class="header-content">C:\Users\Rajendra Prasad\Documents\Selenium\SeleniumWebDriverMaven\src\test\resources\runner\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -213,16 +211,21 @@
     &lt;listener class-name=&quot;ListenersDemo.ListenersTestNG&quot;/&gt;
     &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;First TestNG Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Bank Manager Login Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.Testng.Programs.FirstTestNG&quot;/&gt;
+      &lt;class name=&quot;BankingApp.BankManagerLoginTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- First TestNG Test --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Data Parameterization 1&quot;&gt;
+  &lt;/test&gt; &lt;!-- Bank Manager Login Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Add Customer Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.Testng.Programs.DataProvider1&quot;/&gt;
+      &lt;class name=&quot;BankingApp.AddCustomerDetails&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Data Parameterization 1 --&gt;
+  &lt;/test&gt; &lt;!-- Add Customer Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Open Account Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BankingApp.OpenBankAccount&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Open Account Test --&gt;
 &lt;/suite&gt; &lt;!-- Learning TestNG --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -234,10 +237,13 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">First TestNG Test (1 class)</span>
+                <span class="test-name">Bank Manager Login Test (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Data Parameterization 1 (1 class)</span>
+                <span class="test-name">Add Customer Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Open Account Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -263,28 +269,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'clickLink')
-data.setCell(0, 2, 'com.Testng.Programs.FirstTestNG')
-data.setCell(0, 3, 15);
+data.setCell(0, 1, 'loginAsBankManager')
+data.setCell(0, 2, 'BankingApp.BankManagerLoginTest')
+data.setCell(0, 3, 672);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Login')
-data.setCell(1, 2, 'com.Testng.Programs.FirstTestNG')
+data.setCell(1, 1, 'addCustomer')
+data.setCell(1, 2, 'BankingApp.AddCustomerDetails')
 data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testFormFill')
-data.setCell(2, 2, 'com.Testng.Programs.DataProvider1')
+data.setCell(2, 1, 'openAccount')
+data.setCell(2, 2, 'BankingApp.OpenBankAccount')
 data.setCell(2, 3, 0);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testFormFill')
-data.setCell(3, 2, 'com.Testng.Programs.DataProvider1')
-data.setCell(3, 3, 0);
 window.suiteTableData['Learning_TestNG']= { tableData: data, tableDiv: 'times-div-Learning_TestNG'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 ms</span>
+              <span class="suite-total-time">Total running time: 672 ms</span>
               <div id="times-div-Learning_TestNG">
               </div> <!-- times-div-Learning_TestNG -->
             </div> <!-- times-div -->
@@ -310,42 +312,25 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.Testng.Programs.FirstTestNG</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">startBrowser</span>
+              <div class="chronological-class-name">BankingApp.OpenBankAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">Login</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">CloseBrowser</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">startBrowser</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">clickLink</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">CloseBrowser</span>
-                <span class="method-start">15 ms</span>
-              </div> <!-- configuration-method after -->
+              </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.Testng.Programs.DataProvider1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">BankingApp.BankManagerLoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testFormFill(abc@gmail.com, abc123, 15)</span>
-                <span class="method-start">37 ms</span>
+                <span class="method-name">loginAsBankManager</span>
+                <span class="method-start">29958 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testFormFill(xyz@gmail.com, xyz123, 20)</span>
-                <span class="method-start">37 ms</span>
-              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BankingApp.OpenBankAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30734 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

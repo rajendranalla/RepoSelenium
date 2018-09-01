@@ -1,16 +1,9 @@
-24/08/2018 15:45:05 devpinoyLogger Config properties loaded
-24/08/2018 15:45:05 devpinoyLogger OR properties loaded
-24/08/2018 15:45:10 devpinoyLogger Launching Firefox
-24/08/2018 15:45:15 devpinoyLogger Navigating to: http://www.way2automation.com/angularjs-protractor/banking/#/login
-24/08/2018 15:45:21 devpinoyLogger DB connection established
-24/08/2018 15:45:21 devpinoyLogger Element Enabled bmlBtn_xpath
-24/08/2018 15:45:21 devpinoyLogger Click on an element bmlBtn_xpath
-24/08/2018 15:45:21 devpinoyLogger Element Enabled addCustBtn_xpath
-24/08/2018 15:45:22 devpinoyLogger Click on an element addCustBtn_css
-24/08/2018 15:45:24 devpinoyLogger Typing in an element firstName_css & the value entered is Rajendra
-24/08/2018 15:45:26 devpinoyLogger Typing in an element lastName_css & the value entered is Nalla
-24/08/2018 15:45:28 devpinoyLogger Typing in an element postCode_css & the value entered is a12345
-24/08/2018 15:45:30 devpinoyLogger Click on an element addCustomer_css
-24/08/2018 15:45:37 devpinoyLogger Click on an element openAccount_css
-24/08/2018 15:45:44 devpinoyLogger Click on an element process_css
-24/08/2018 15:45:53 devpinoyLogger Test execution completed !!
+28/08/2018 13:30:23 devpinoyLogger Config properties loaded
+28/08/2018 13:30:23 devpinoyLogger OR properties loaded
+28/08/2018 13:30:42 devpinoyLogger Launching Firefox
+28/08/2018 13:30:47 devpinoyLogger Navigating to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+28/08/2018 13:30:53 devpinoyLogger DB connection established
+28/08/2018 13:30:53 devpinoyLogger Element Enabled bmlBtn_xpath
+28/08/2018 13:30:53 devpinoyLogger Click on an element bmlBtn_xpath
+28/08/2018 13:30:54 devpinoyLogger Element Enabled addCustBtn_xpath
+28/08/2018 13:30:55 devpinoyLogger Test execution completed !!

@@ -5,15 +5,26 @@
     <listener class-name="ListenersDemo.ListenersTestNG"/>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
   </listeners>
-  <test thread-count="5" name="First TestNG Test(failed)">
+  <test thread-count="5" name="Add Customer Test(failed)">
     <classes>
-      <class name="com.Testng.Programs.FirstTestNG">
+      <class name="BankingApp.AddCustomerDetails">
         <methods>
-          <include name="Login"/>
-          <include name="startBrowser"/>
-          <include name="CloseBrowser"/>
+          <include name="addCustomer"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Testng.Programs.FirstTestNG -->
+      </class> <!-- BankingApp.AddCustomerDetails -->
     </classes>
-  </test> <!-- First TestNG Test(failed) -->
+  </test> <!-- Add Customer Test(failed) -->
+  <test thread-count="5" name="Open Account Test(failed)">
+    <classes>
+      <class name="BankingApp.OpenBankAccount">
+        <methods>
+          <include name="openAccount"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- BankingApp.OpenBankAccount -->
+    </classes>
+  </test> <!-- Open Account Test(failed) -->
 </suite> <!-- Failed suite [Learning TestNG] -->
