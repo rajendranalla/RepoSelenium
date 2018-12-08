@@ -12,7 +12,10 @@ is already set in the POM.xml file, then run in the terminal:
 
 
 
-GIT COMMANDS:
+GIT COMMANDS: 
+1. Open GITbash and run as administrator
+2. Go to the path of the project
+
 
 Status (List the files you've changed and those you still need to add or commit:): git status
 Add (Add one or more files to staging (index):) : git add *

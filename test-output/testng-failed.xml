@@ -1,30 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Learning TestNG]">
-  <listeners>
-    <listener class-name="ListenersDemo.ListenersTestNG"/>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-  </listeners>
-  <test thread-count="5" name="Add Customer Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BankingApp.AddCustomerDetails">
+      <class name="sikuli.UploadFileToBrowser2">
         <methods>
-          <include name="addCustomer"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="downloadFile"/>
         </methods>
-      </class> <!-- BankingApp.AddCustomerDetails -->
+      </class> <!-- sikuli.UploadFileToBrowser2 -->
     </classes>
-  </test> <!-- Add Customer Test(failed) -->
-  <test thread-count="5" name="Open Account Test(failed)">
-    <classes>
-      <class name="BankingApp.OpenBankAccount">
-        <methods>
-          <include name="openAccount"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- BankingApp.OpenBankAccount -->
-    </classes>
-  </test> <!-- Open Account Test(failed) -->
-</suite> <!-- Failed suite [Learning TestNG] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

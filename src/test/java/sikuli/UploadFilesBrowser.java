@@ -14,7 +14,8 @@ public class UploadFilesBrowser {
 	@Test
 	public void downloadFile() throws Exception {
 
-		System.setProperty("webdriver.chrome.driver", "C:/Users/Rajendra Prasad/eclipse-workspace/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Rajendra Prasad\\Documents\\Selenium\\SeleniumWebDriverMaven\\src\\test\\resources\\executables\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://files.fm/");
@@ -28,7 +29,7 @@ public class UploadFilesBrowser {
 
 		Screen screen = new Screen();
 
-		Pattern pattern = new Pattern(System.getProperty("user.dir")+ "/src/test/resources/sikuliImages/Desktop.PNG");
+		Pattern pattern = new Pattern(System.getProperty("user.dir") + "/src/test/resources/sikuliImages/Desktop.PNG");
 		screen.click(pattern);
 		Thread.sleep(3000);
 

@@ -25,11 +25,8 @@
 
 
 
-	<!-- <test name="Open Account Test">
-		<classes>
-			<class name="BankingApp.OpenBankAccount" />
-		</classes>
-	</test> -->
+	<!-- <test name="Open Account Test"> <classes> <class name="BankingApp.OpenBankAccount" 
+		/> </classes> </test> -->
 
 
 </suite>

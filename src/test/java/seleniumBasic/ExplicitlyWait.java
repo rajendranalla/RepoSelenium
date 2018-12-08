@@ -11,7 +11,8 @@ public class ExplicitlyWait {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.gecko.driver", "C:/Users/Rajendra Prasad/eclipse-workspace/geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver",
+				"C:\\Users\\Rajendra Prasad\\Documents\\Selenium\\SeleniumWebDriverMaven\\src\\test\\resources\\executables\\geckodriver.exe");
 
 		WebDriver driver = new FirefoxDriver();
 
@@ -20,12 +21,13 @@ public class ExplicitlyWait {
 		driver.get("https://www.facebook.com/");
 
 		// Waits for 10 secs
-		WebDriverWait wait = new WebDriverWait(driver, 2);
+		 WebDriverWait wait = new WebDriverWait(driver, 2);
 
 		// Check for element visibility
 		// WebElement element
 		// =wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Forgotten
 		// account?")));
+
 		//
 		// boolean status = element.isDisplayed();
 		//
@@ -40,7 +42,7 @@ public class ExplicitlyWait {
 
 		driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("Prasad_9177");
 
-		driver.findElement(By.xpath("//*[@id='u_0_0']")).click();
+		driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
 
 		WebElement element = wait
 				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Rajendra']")));

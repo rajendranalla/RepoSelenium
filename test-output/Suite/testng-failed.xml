@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="ListenersDemo.ListenersTestNG"/>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-  </listeners>
-  <test thread-count="5" name="BankingApp(failed)">
-    <classes>
-      <class name="BankingApp.BankManagerLoginTest">
-        <methods>
-          <include name="loginAsBankManager"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- BankingApp.BankManagerLoginTest -->
-    </classes>
-  </test> <!-- BankingApp(failed) -->
+	<listeners>
+		<listener class-name="ListenersDemo.ListenersTestNG" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	</listeners>
+	<test thread-count="5" name="BankingApp(failed)">
+		<classes>
+			<class name="BankingApp.BankManagerLoginTest">
+				<methods>
+					<include name="loginAsBankManager" />
+					<include name="setUp" />
+					<include name="tearDown" />
+				</methods>
+			</class> <!-- BankingApp.BankManagerLoginTest -->
+		</classes>
+	</test> <!-- BankingApp(failed) -->
 </suite> <!-- Failed suite [Suite] -->
