@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46572" started-at="2018-12-05T18:08:53Z" finished-at="2018-12-05T18:09:39Z">
+  <suite name="Default suite" duration-ms="7610" started-at="2018-12-18T02:55:52Z" finished-at="2018-12-18T02:55:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46572" started-at="2018-12-05T18:08:53Z" finished-at="2018-12-05T18:09:39Z">
-      <class name="sikuli.UploadFileToBrowser2">
-        <test-method status="PASS" signature="downloadFile()[pri:0, instance:sikuli.UploadFileToBrowser2@4524411f]" name="downloadFile" duration-ms="46531" started-at="2018-12-05T18:08:53Z" finished-at="2018-12-05T18:09:39Z">
+    <test name="Default test" duration-ms="7610" started-at="2018-12-18T02:55:52Z" finished-at="2018-12-18T02:55:59Z">
+      <class name="seleniumBasic.CheckBoxHandling">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:seleniumBasic.CheckBoxHandling@47db50c5]" name="invokeBrowser" is-config="true" duration-ms="4323" started-at="2018-12-18T02:55:52Z" finished-at="2018-12-18T02:55:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- downloadFile -->
-      </class> <!-- sikuli.UploadFileToBrowser2 -->
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="RadioButtonSelection()[pri:1, instance:seleniumBasic.CheckBoxHandling@47db50c5]" name="RadioButtonSelection" duration-ms="3263" started-at="2018-12-18T02:55:56Z" finished-at="2018-12-18T02:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RadioButtonSelection -->
+      </class> <!-- seleniumBasic.CheckBoxHandling -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

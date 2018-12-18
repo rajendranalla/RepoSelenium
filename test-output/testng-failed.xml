@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sikuli.UploadFileToBrowser2">
+      <class name="seleniumBasic.CheckBoxHandling">
         <methods>
-          <include name="downloadFile"/>
+          <include name="RadioButtonSelection"/>
+          <include name="invokeBrowser"/>
         </methods>
-      </class> <!-- sikuli.UploadFileToBrowser2 -->
+      </class> <!-- seleniumBasic.CheckBoxHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
